@@ -1,9 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.Rendering.UI;
 using UnityEngine.UI;
 
 public class Gesture : MonoBehaviour
@@ -41,8 +37,6 @@ public class Gesture : MonoBehaviour
 
     private void InitMask(RectTransform targetRect)
     {
-        gasterRect.sizeDelta = targetRect.sizeDelta+ new Vector2(25, 25);
+        gasterRect.sizeDelta = targetRect.sizeDelta + new Vector2(25, 25);
     }
-
-
 }
